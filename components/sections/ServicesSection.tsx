@@ -25,7 +25,7 @@ const services = [
   {
     title: 'Birthday & Debut',
     description:
-      'Celebrate life's milestones in style with our customizable event spaces perfect for intimate gatherings and grand celebrations.',
+      "Celebrate life's milestones in style with our customizable event spaces perfect for intimate gatherings and grand celebrations.",
     icon: (
       <svg
         className="w-12 h-12"

@@ -45,7 +45,7 @@ const services = [
     id: 'birthday',
     title: 'Birthday & Debut Celebrations',
     description:
-      'Celebrate life's milestones in style with our versatile event spaces. From intimate birthday gatherings to grand debut celebrations, we provide the perfect setting and services to make your special day unforgettable.',
+      "Celebrate life's milestones in style with our versatile event spaces. From intimate birthday gatherings to grand debut celebrations, we provide the perfect setting and services to make your special day unforgettable.",
     features: [
       'Flexible space configurations',
       'Themed decoration options',

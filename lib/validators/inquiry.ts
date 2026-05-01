@@ -5,7 +5,7 @@ export const inquirySchema = z.object({
   email: z.string().email('Please enter a valid email address'),
   phone: z.string().optional(),
   event_type: z.enum(['wedding', 'birthday_debut', 'corporate'], {
-    errorMap: () => ({ message: 'Please select an event type' }),
+    message: 'Please select an event type',
   }),
   event_date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'Please enter a valid date'),
   guest_count: z.coerce.number().int().positive().optional(),
