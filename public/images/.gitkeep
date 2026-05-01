@@ -1,0 +1,12 @@
+# Placeholder Images Directory
+
+This directory should contain your venue images. Replace these placeholders with actual photos:
+
+- hero-placeholder.jpg (1920x1080px)
+- gallery-1.jpg through gallery-12.jpg (1200x800px each)
+- about-venue.jpg (1200x800px)
+
+Recommended image optimization:
+- Format: JPG or WebP
+- Quality: 80-90%
+- Use next/image for automatic optimization

@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #F5F2EC;
+  --color-surface: #EDE8DF;
+  --color-sage: #8A9E7F;
+  --color-sage-dark: #5C7A52;
+  --color-earth: #BFA980;
+  --color-bark: #4A3F35;
+  --color-mist: #CDD5C8;
+  --color-white: #FDFAF5;
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-bark font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl font-light tracking-tight;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl font-light;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl font-normal;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl font-normal;
+  }
+
+  p {
+    @apply leading-relaxed;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-sage-dark text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-sage hover:shadow-lg;
+  }
+
+  .btn-secondary {
+    @apply border-2 border-sage-dark text-sage-dark px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-sage-dark hover:text-white;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl p-6 shadow-md transition-shadow duration-300 hover:shadow-xl;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
